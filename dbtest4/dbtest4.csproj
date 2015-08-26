@@ -14,7 +14,7 @@
     </_CustomFiles>
 
     <FilesForPackagingFromProject  Include="%(_CustomFiles.Identity)">
-      <DestinationRelativePath>Extra Files\%(RecursiveDir)%(Filename)%(Extension)</DestinationRelativePath>
+      <DestinationRelativePath>.ebextensions\%(RecursiveDir)%(Filename)%(Extension)</DestinationRelativePath>
     </FilesForPackagingFromProject>
   </ItemGroup>
 </Target> 
